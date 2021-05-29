@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form align="center">
+        上传头像<input type="file"><br/>
+        <!--name属性，由用户自定，相同名字的只能单选-->
+        <!--value值主要针对后台人员使用，前端点击后会给后台返回数据-->
+        性别：<label for="nan">男</label><input type="radio" name="sex" value="男" id="nan">
+        <label for="nv">女</label><input type="radio" name="sex" value="女" id="nv"><br/>
+        您的工作<br>
+        <label for="nongmin">农民</label><input type="checkbox" value="农民" id="nongmin">
+        <label for="gongchengshi">工程师</label><input type="checkbox" value="工程师" id="gongchengshi">
+        <label for="jizhe">记者</label><input type="checkbox" value="记者" id="jizhe">
+        <label for="yisheng">医生</label><input type="checkbox" value="医生" id="yisheng"><br>
+        <!--checked="checked" 默认勾选-->
+        获取手机验证码:<input type="text"><input type="button" value="获取手机验证码"><br>
+        <input type="checkbox" checked="checked">我同意注册条款和会员加入标准<br/>
+        <input type="submit" value="免费注册"><input type="reset" value="重新填写">
+    </form>
+</body>
+</html>

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2 align="center">世纪佳缘用户注册</h2>
+    <table border="2" cellpadding="20" cellspacing="0" align="center" height="70" width="600">
+        <tr><td align="center">性别</td>
+            <td align="center">
+                <label for="nan">男</label><input type="radio" id="nan" name="sex" value="男">
+                <label for="nv">女</label><input type="radio" id="nv" name="sex" value="女">
+            </td>
+        </tr>
+        <tr><td align="center">生日</td>
+            <td align="center">
+                <form>
+                <select>
+                    <option selected="selected">--请选择年--</option>
+                    <option>1998年</option>
+                    <option>1997年</option>
+                    <option>1996年</option>
+                    <option>1995年</option>
+                    <option>1994年</option>
+                </select>
+                <select>
+                    <option selected="selected">--请选择月--</option>
+                    <option>1月</option>
+                    <option>2月</option>
+                    <option>3月</option>
+                    <option>4月</option>
+                    <option>5月</option>
+                </select>
+                <select>
+                    <option selected="selected">--请选择日--</option>
+                    <option>1日</option>
+                    <option>2日</option>
+                    <option>3日</option>
+                    <option>4日</option>
+                    <option>5日</option>
+                </select>
+                </form>
+            </td>
+        </tr>
+        <tr><td align="center">婚姻状况</td>
+            <td>
+            <form align="center">
+                <label for="weihun">未婚</label><input type="radio" id="weihun" name="marriage" value="未婚">
+                <label for="liyi">离异</label><input type="radio" id="liyi" name="marriage" value="男">
+            </form>
+            </td>
+        </tr>
+        <tr><td align="center">职业</td>
+            <td align="center">
+                <label for="nongmin">农民</label><input type="checkbox" name="work" value="农民" id="nongmin">
+                <label for="gongchengshi">工程师</label><input type="checkbox"
+                name="work" value="工程师" id="gongchengshi">
+                <label for="jizhe">记者</label><input type="checkbox" value="记者" name="work" id="jizhe">
+                <label for="yisheng">医生</label><input type="checkbox" value="医生" name="work" id="yisheng">
+                <label for="chengxuyuan">程序员</label><input type="checkbox" value="程序员" name="work" id="chengxuyuan">
+            </td>
+        </tr>
+        <tr><td align="center">自我介绍</td>
+            <td>
+                <form>
+                    <textarea cols="60" rows="10">
+                    </textarea>
+                </form>
+            </td>
+        </tr>
+        <tr><td align="center">头像</td>
+            <td>
+            <form align="center">
+                <input type="file">
+            </form>
+            </td>
+        </tr>
+    </table>
+    <form align="center">
+        <input type="checkbox" checked="checked">我同意注册条款和会员加入标准<br/>
+        已有账号？<a href="登录.html" target="_blank">点击登录</a><br/>
+        <input type="submit" name="submit" value="免费注册"><input type="reset" name="reset" value="重新填写">
+    </form>
+</body>
+</html>
